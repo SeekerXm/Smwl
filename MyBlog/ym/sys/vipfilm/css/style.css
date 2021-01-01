@@ -1,0 +1,54 @@
+/* 运行时间颜色代码 */
+#momk{animation:change 10s infinite;font-weight:800; }
+@keyframes change{0%{color:#5cb85c;}25%{color:#556bd8;}50%{color:#e40707;}75%{color:#66e616;}100% {color:#67bd31;}}
+/* end */
+.copyright p{margin: 0;}
+/* 各站视频按钮 */
+.unit-100 {width: 100%;}
+.language {text-align: center;margin: 0 auto;position: relative;padding-top: 15px;padding-bottom:20px;}
+.btn2 {
+    display: inline-block;
+    vertical-align: top;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    color: #5cb85c;
+    margin: 5px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: none;
+    cursor: pointer;
+    background: #eeeded;
+    padding: 20px 20px;
+    height: 2.3em;
+}
+.btn2:link {
+    color: #ffffff;
+    background: #5cb85c;
+}
+.btn2:visited {
+    color: #ffffff;
+    background: #5cb85c;
+}
+.btn2:hover {
+    color: #ffffff;
+    background: #449D44;
+}
+.btn2:active {
+    color: #ffffff;
+    background: #5cb85c;
+}
+.btn-outline2 {
+    background: none;
+    border: 3px solid #5cb85c;
+    *height: 15px;
+    *height: _15px;
+    margin-right: 14px;
+    padding-top: 6px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+/* end */
