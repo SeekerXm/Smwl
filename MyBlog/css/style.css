@@ -1,0 +1,358 @@
+/* 网站运行时间文字颜色渐变样式代码 */
+#momk {
+	animation: change 10s infinite;
+	font-weight: 800;
+}
+
+@keyframes change {
+	0% {
+		color: #5cb85c;
+	}
+
+	25% {
+		color: #556bd8;
+	}
+
+	50% {
+		color: #e40707;
+	}
+
+	75% {
+		color: #66e616;
+	}
+
+	100% {
+		color: #67bd31;
+	}
+}
+
+/* 背景 */
+html.bg {
+	background-image: url(https://cdn.jsdelivr.net/gh/SeekerXm/Smwl@main/MyBlog/image/bg.jpeg);
+	/* ../image/bg.png */
+	/*https://dl2.img.timecdn.cn/2020/11/13/bg.jpg!h.webp*/
+}
+
+.cool-transparent .off-screen+* .app-content-body {
+	background: #EFEFEF;
+}
+
+@media (max-width:767px) {
+	html.bg {
+		background: #EFEFEF;
+	}
+
+	.cool-transparent .off-screen+* .app-content-body {
+		background: #EFEFEF;
+	}
+}
+
+figcaption.post-img-figcaption:not(.post-img-figcation) {
+	display: none;
+}
+
+#aside .wrapper:hover {
+	background: url(../image/snow.gif);
+	background-size: cover;
+	color: #999;
+}
+
+/* 鼠标样式 */
+body {
+	cursor: url('../etc/blue.cur'), auto;
+}
+
+html {
+	cursor: url('../etc/blue.cur'), auto;
+}
+
+a:hover {
+	color: #45b6f7;
+	text-decoration: none;
+	cursor: url('../etc/fcous.cur'), auto;
+}
+
+#tag_cloud-2 a:hover {
+	text-decoration: none;
+	cursor: url('../etc/fcous.cur'), auto;
+}
+
+#goToTop {
+	text-decoration: none;
+	cursor: url('../etc/fcous.cur'), auto;
+}
+
+#ycwz {
+	text-decoration: none;
+	cursor: url('../etc/fcous.cur'), auto;
+}
+
+.toux.avatar img {
+	text-decoration: none;
+	cursor: url('../etc/fcous.cur'), auto;
+}
+
+.pull-left img {
+	text-decoration: none;
+	cursor: url('../etc/blue.cur'), auto;
+}
+
+.support-author button {
+	text-decoration: none;
+	cursor: url('../etc/fcous.cur'), auto;
+}
+
+.wrapper-lg button {
+	text-decoration: none;
+	cursor: url('../etc/fcous.cur'), auto;
+}
+
+#md_handsome_origin img {
+	text-decoration: none;
+	cursor: url('../etc/fcous.cur'), auto;
+}
+
+.layout figcaption {
+	text-decoration: none;
+	cursor: url('../etc/blue.cur'), auto;
+}
+
+/* new style */
+.panel-heading strong {
+	text-decoration: none;
+	cursor: url('../etc/fcous.cur'), auto;
+}
+
+/* 鼠标样式end */
+/* 分页首页按钮 */
+.page-navigator>li>a,
+.page-navigator>li>span {
+	line-height: 1.42857143;
+	padding: 6px 12px;
+}
+
+/* 关于我标题图标 */
+.bttb {
+	font-size: 3.125rem
+}
+
+/* 左侧头像下的影藏文字 */
+#ychyc {
+	color: #23b7e5;
+}
+
+/* 头像 */
+.toux img {
+	width: 150px;
+	border-radius: 200px;
+	box-shadow: 0px 0px 40px rgb(75, 125, 134);
+	border: 3px solid #23b7e5;
+	-webkit-transition: 0.4s;
+	-webkit-transition: -webkit-transform 0.4s ease-out;
+	transition: transform 0.4s ease-out;
+	-moz-transition: -moz-transform 0.4s ease-out;
+}
+
+/* 鼠标停留选装头像特效 */
+.toux img:hover {
+	transform: rotateZ(360deg);
+	-webkit-transform: rotateZ(360deg);
+	-moz-transform: rotateZ(360deg);
+}
+
+/* 头像end */
+/* 滚动条样式 */
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+	width: 9px;
+	height: 9px
+}
+
+/*定义滚动条轨道*/
+::-webkit-scrollbar-track {
+	background-color: transparent;
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	border-radius: 2em
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+	background-color: #417080;
+	background-image: -webkit-linear-gradient(45deg, rgba(52, 104, 156, 1.0) 25%, transparent 25%, transparent 50%, rgba(255, 85, 0, 0.4) 50%, rgba(85, 170, 255, 0.4) 75%, transparent 75%, transparent);
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	border-radius: 2em
+}
+
+/* 滚动条样式end */
+/* 文章小图标 */
+/* 单个样式 */
+.bg-ico-book {
+	background-position: 0 0 !important
+}
+
+.bg-ico-game {
+	background-position: 0 -40px !important
+}
+
+.bg-ico-note {
+	background-position: 0 -80px !important
+}
+
+.bg-ico-chat {
+	background-position: 0 -120px !important
+}
+
+.bg-ico-code {
+	background-position: 0 -160px !important
+}
+
+.bg-ico-image {
+	background-position: 0 -200px !important
+}
+
+.bg-ico-web {
+	background-position: 0 -240px !important
+}
+
+.bg-ico-link {
+	background-position: 0 -280px !important
+}
+
+.bg-ico-design {
+	background-position: 0 -320px !important
+}
+
+.bg-ico-lock {
+	background-position: 0 -360px !important
+}
+
+/* 总样式 */
+.item-meta-ico {
+	background: url(../image/ico-wz.png) no-repeat;
+	background-size: 40px auto;
+	position: relative;
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+	border: 1px solid #eaeaea;
+	border-radius: 50%;
+	float: left;
+	margin-right: 25px
+}
+
+/* 文章小图标end */
+/* 代码高亮样式 */
+pre code {
+	background-color: #1b2227;
+	color: #c7254e;
+}
+
+/* 代码高亮样式 */
+/* 水平线样式 */
+.hr0 {
+	height: 1px;
+	border: none;
+	border-top: 1px dashed #55ffff;
+}
+
+/* 虚线 */
+.hr1 {
+	height: 1px;
+	border: none;
+	border-top: 1px solid #000000;
+}
+
+/* 实线 */
+.hr2 {
+	height: 3px;
+	border: none;
+	border-top: 3px double #ff0000;
+}
+
+/* 双实线 */
+.hr3 {
+	height: 5px;
+	border: none;
+	border-top: 5px ridge #55ffff;
+}
+
+/* 等厚浅到深渐变双实线 */
+.hr4 {
+	height: 10px;
+	border: none;
+	border-top: 10px groove #55ffff;
+}
+
+/* 等厚深到浅渐变双实线 */
+/* end */
+/* 一言 */
+#yiyan {
+	border-left: 5px solid #0073d8;
+	border-right: 5px solid #0073d8;
+	background-color: #3288d31a;
+	padding: 10px;
+	color: #0073d8;
+	margin: auto;
+	text-align: center;
+	padding-top: 6px;
+	left: 30%;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-bottom: -8px;
+}
+
+#yyys {
+	color: #0073D8;
+}
+
+/* 文章一眼颜色 */
+/* 一言end */
+/* 彩色标题 */
+/*总样式*/
+.csbt {
+	/* border-left: 5px inset #0073d8; */
+	/* 左彩带 */
+	background-color: #fafafa;
+	color: #2f2f2f;
+	font-family: "黑体";
+	font-size: 20px;
+	font-weight: 600;
+	margin: 15px auto 15px auto;
+	/* 上 右 下 左边距 */
+	padding-left: 8px;
+	/* 文字左内边距 */
+	margin-left: -13px;
+	/* 左边距 */
+}
+
+/*单个样式*/
+.c1 {
+	border-left: 5px inset #ff0000;
+}
+
+.c2 {
+	border-left: 5px inset #aa00ff;
+}
+
+.c3 {
+	border-left: 5px inset #55ffff;
+}
+
+.c4 {
+	border-left: 5px inset #000000;
+}
+
+.c5 {
+	border-left: 5px inset #ff5500;
+}
+
+/* 彩色标题end */
+/* 文字浮于图片上方文字摘要 */
+.byline {
+	color: #c3c3c3;
+}
+
+/* end */
+/*  */
